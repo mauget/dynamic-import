@@ -67,5 +67,9 @@ This demo sequentially executes three functions by string name from three module
 loaded dynamically at execution time by path name. We assumes the same set of three 
 signatures exists in each module. The implementations of each functino varies per-module.
 
+## References
+- [Javascript Info](https://javascript.info/modules-dynamic-imports) 
+- [StackOverflow](https://stackoverflow.com/questions/359788/how-to-execute-a-javascript-function-when-i-have-its-name-as-a-string)
+
 -Lou Mauget, 2020-02-15
 
