@@ -1,4 +1,4 @@
-# Dynamic Module Import
+# Dynamic JavaScript Module Import and Function Execute
 
 ### Dynamically load a JavaScript module file
 
