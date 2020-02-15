@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Binding</title>
+</head>
+<body>
+<button onclick="load('./say.js')">Say stuff</button>
+<br/>
+<br/>
+<button onclick="load('./mutter.js')">Mutter stuff</button>
+<br/>
+<br/>
+<button onclick="load('./whisper.js')">Whisper stuff</button>
+</body>
+<script>
+    async function load(namespace) {
+        const module = await import(namespace);
+        ["hi", "bye", "default"].forEach(fn => (module[fn])())
+    }
+</script>
+</html>
