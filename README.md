@@ -27,8 +27,8 @@ that is an implicit `async` function.
 
 ### Run the demo
 
-- Serve or debug the `index.html` file in server (e.g. IntelliJ Chrome debug), to browser or linked debug session. 
-- Click on the buttons on its page.
+- Browse or debug the `index.html` file from a server (e.g. IntelliJ Chrome debug). 
+- Click buttons on its page.
 
 #### (Sidebar: A Zero-Config Server)
 Note that opening index.html directly from  the file system suffers a CORS violation during imports unless you have 
