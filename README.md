@@ -30,14 +30,13 @@ that is an implicit `async` function.
 - Serve or debug the `index.html` file in server (e.g. IntelliJ Chrome debug), to browser or linked debug session. 
 - Click on the buttons on its page.
 
+#### Zero-Config Server
 Note that opening index.html directly from  the file system suffers a CORS violation during imports unless you have 
 a plugin that bypasses CORS. Here's a quick zero-configuration approach:
 
-``` shell script
-    npm install http-server -g
-    ...
-    http-server <project directory>
-```
+1. Install: `npm install http-server -g`
+1. Start: `http-server <project directory>`
+1. Open browser to `http://localhost:8080`
 
 ### Invoke a JavaScript function by its string Name
 
