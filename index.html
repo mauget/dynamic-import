@@ -17,7 +17,7 @@
 <script>
     async function load(namespace) {
         const module = await import(namespace);
-        ["hi", "bye", "default"].forEach(fn => (module[fn])())
+        ["hi", "bye", "default"].forEach(fn => module[fn]());
     }
 </script>
 </html>
