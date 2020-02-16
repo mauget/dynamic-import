@@ -36,7 +36,7 @@ a plugin that bypasses CORS. Here's a quick zero-configuration approach:
 
 1. Install: `npm install http-server -g`
 1. Start: `http-server <project directory>`
-1. Open browser to `http://localhost:8080`
+1. Open browser to http://localhost:8080 
 
 ### Invoke a JavaScript function by its string Name
 
