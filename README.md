@@ -27,8 +27,17 @@ that is an implicit `async` function.
 
 ### Run the demo
 
-- Click or debug the index.html file in a browser or linked debug session. 
+- Serve or debug the `index.html` file in server (e.g. IntelliJ Chrome debug), to browser or linked debug session. 
 - Click on the buttons on its page.
+
+Note that opening index.html directly from  the file system suffers a CORS violation during imports unless you have 
+a plugin that bypasses CORS. Here's a quick zero-configuration approach:
+
+``` shell script
+    npm install http-server -g
+    ...
+    http-server <project directory>
+```
 
 ### Invoke a JavaScript function by its string Name
 
