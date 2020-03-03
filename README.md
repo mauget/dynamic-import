@@ -34,7 +34,7 @@ that is an implicit `async` function.
 Note that opening index.html directly from  the file system suffers a CORS violation during imports unless you have 
 a plugin that bypasses CORS. Here's a quick zero-configuration approach:
 
-1. Install: `npm install http-server -g`
+1. Ensure install: `yarn install`
 1. Start: `http-server <project directory>`
 1. Open browser to http://localhost:8080 
 
